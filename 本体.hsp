@@ -1,0 +1,19 @@
+title ""
+width 15 , 100 , -1 , -1
+a=0
+*c
+cls
+mes a
+button "+" , *up
+button "-" , *down
+button "reset" , *reset
+stop
+*up
+a+
+goto *c
+*down
+a-
+goto *c
+*reset
+a=0
+goto *c
